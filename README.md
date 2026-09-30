@@ -1,20 +1,24 @@
-# Business Intelligence – Transaction Processing
+# 📊 Business Intelligence & Transaction Processing
 
-## Overview
-This project focuses on business intelligence and transaction processing using Microsoft Power BI.
+A comprehensive Business Intelligence (BI) project focused on analyzing transactional data, designing Data Warehouses, and deriving actionable business insights through analytical dashboards and reporting.
 
-## Tools & Technologies
-- Microsoft Power BI
-- DAX
-- Power Query
+---
 
-## Project File
-The repository contains the Power BI project file (`.pbix`), which can be opened using Microsoft Power BI Desktop.
+## 📌 Project Overview
 
-## How to Use
-1. Download the `.pbix` file from this repository.
-2. Open the file using Microsoft Power BI Desktop.
-3. Explore the dashboards, visualizations, and reports.
+This repository demonstrates end-to-end BI pipelines and transactional data processing workflows, covering:
+* **Transactional Data Analysis:** Extracting, processing, and validating OLTP transactional records.
+* **Data Warehousing & ETL:** Transforming raw operations data into structured dimensional models (Fact & Dimension tables).
+* **Business Analytics & Reporting:** Calculating key performance indicators (KPIs) to analyze performance, trends, and business operations.
 
-## Author
-Mohammad Ehsan Ghaderi
+---
+
+## 📁 Repository Structure
+
+```text
+Business-Intelligence-Transaction-Processing/
+├── data/               # Raw and processed datasets / database scripts
+├── dashboards/         # BI dashboard files or visualizations (Power BI / Tableau / Notebooks)
+├── scripts/            # ETL pipeline and data transformation scripts
+├── README.md           # Project documentation
+└── requirements.txt    # Project dependencies
